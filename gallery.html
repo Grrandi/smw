@@ -4,19 +4,56 @@
   <link rel="stylesheet" href="css/blueimp/blueimp-gallery.min.css">
   <meta charset="UTF-8">
   <title></title>
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom styles for this template -->
+  <link href="css/sticky-footer-navbar.css" rel="stylesheet">
+
+  <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
 </head>
 <body>
+<!-- Fixed navbar -->
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/smw#">SMW</a>
+        </div>
+        <div class="row">
+          <div class="col-xs-3"></div>
+          <div class="collapse navbar-collapse col-xs-9">
+            <ul class="nav navbar-nav">
+              <li><a href="/smw/#aate">Aate</a></li>
+              <li><a href="/smw/#historia">Historia</a></li>
+              <li><a href="/smw#woimistelijat">Woimistelijat</a></li>
+              <li><a href="gallery.html">Kuvia</a></li>
+              <li><a href="/smw#yhteystiedot">Yhteystiedot</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
 
-<div id="links">
-    <a href="images/16tsaaF.jpg" title="Banana">
-        <img src="images/16tsaaF.jpg" alt="Banana">
-    </a>
-    <a href="images/phhF4.jpg" title="Apple">
-        <img src="images/phhF4.jpg" alt="Apple">
-    </a>
-    <a href="images/DzSe3.jpg" title="Orange">
-        <img src="images/DzSe3.jpg" alt="Orange">
-    </a>
+<div class="container">
+  <div id="links">
+  <a href="images/16tsaaF.jpg" title="Banana">
+    <img src="images/16tsaaF.jpg" alt="Banana">
+  </a>
+  <a href="images/phhF4.jpg" title="Apple">
+    <img src="images/phhF4.jpg" alt="Apple">
+  </a>
+  <a href="images/DzSe3.jpg" title="Orange">
+    <img src="images/DzSe3.jpg" alt="Orange">
+  </a>
 </div>
 
   <div id="blueimp-gallery" class="blueimp-gallery blueimp-gallery-controls">
@@ -27,7 +64,20 @@
     <a class="close">×</a>
     <a class="play-pause"></a>
     <ol class="indicator"></ol>
+  </div>
 </div>
+<div class="footer" >
+    <div class="container">
+        <div class="row">
+            <p class="col-sm-6 text-center text-muted">Sairilan Mieswoimistelijat</p>
+            <p class="col-sm-6 text-center text-muted">Design: Matti Pohjanvirta</p>
+        </div>
+    </div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="js/bootstrap/bootstrap.min.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="js/ie10-viewport-bug-workaround.js"></script>
 <script src="js/blueimp/blueimp-gallery.min.js"></script>
 <script>
 document.getElementById('links').onclick = function (event) {
