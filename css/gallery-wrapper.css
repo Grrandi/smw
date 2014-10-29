@@ -1,0 +1,19 @@
+#gallery-wrapper {
+height:320px;
+overflow:hidden;
+width:100%;
+}
+
+#gallery {
+height:320px;
+overflow:hidden;
+width:200%;
+}
+
+#gallery img {
+float:left;
+}
+
+#gallery img:first-child {
+margin-left:-200px;
+}
