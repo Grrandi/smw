@@ -11,6 +11,7 @@
     <!-- Custom styles for this template -->
     <link href="css/sticky-footer-navbar.css" rel="stylesheet">
     <link href="css/gallery-wrapper.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/blueimp/blueimp-gallery.min.css">
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -40,7 +41,7 @@
               <li><a href="#aate">Aate</a></li>
                 <li><a href="#historia">Historia</a></li>
               <li><a href="#woimistelijat">Woimistelijat</a></li>
-              <li><a href="gallery.html">Kuvia</a></li>
+              <li><a href="#galleria">Galleria</a></li>
               <li><a href="#yhteystiedot">Yhteystiedot</a></li>
             </ul>
           </div><!--/.nav-collapse -->
@@ -78,7 +79,7 @@
       </div>
     </div>
     <div id="aate" class="container">
-        <h1>Aate</h1>
+        <span><h1>Aate <a href="#"><span class="glyphicon glyphicon-chevron-up"></span></a></h1>
         <p class="text-justify">
            Mieswoimisteluaatteen kulmakivinä ovat käsitteet: isänmaallisuus, askeettisuus, sitkeys ja veljeys.
            Mieswoimistelijat kunnioittavat sotiemme veteraaneja ja Ylipäällikkö Mannerheimia, joka sotavuosina piti askeettista petiään Sairilan kartanossa.
@@ -96,7 +97,7 @@
 <div class="container" id="historia">
     <div class="row">
         <div class="col-sm-12">
-            <h1>Historia</h1>
+            <span><h1>Historia <a href="#"><span class="glyphicon glyphicon-chevron-up"></span></a></h1>
             <p class="text-justify">
                Sairilan Mieswoimistelijoiden historia juontaa juurensa Paukkulan Nuorisoseuran Mieswoimistelijoihin. Paukkulan weljet kiersivät esiintymässä vuosina 1981 – 1983 ympäri valtakuntaa lähinnä nuorisoseuratapahtumissa, mutta myös muissakin juhlissa. Mieswoimisteluaatteen toi Sairilaan ryhmässä voimistellut Jukka Pohjanvirta.
                Sairilan Mieswoimistelijoiden voidaan katsoa syntyneen 7.11.1986, jolloin woimistelijakaksikko ohjaajat Juha-Matti Laitinen ja Jukka Pohjanvirta esittivät kuolemaa halveksivaa tasapainovoimistelua Sairilan koulukodin nuorten iltamissa.
@@ -106,8 +107,16 @@
         </div>
     </div>
 </div>
+<div id="gallery-wrapper">
+  <div id="gallery">
+    <img src="images/kuvanauhat/korkinavaaja.jpg">
+    <img src="images/kuvanauhat/laukku.jpg">
+    <img src="images/kuvanauhat/lippu.jpg">
+    <img src="images/kuvanauhat/rumpu.jpg">
+  </div>
+</div>
 <div class="container" id="woimistelijat">
-    <h1>Woimistelijat</h1>
+    <span><h1>Woimistelijat <a href="#"><span class="glyphicon glyphicon-chevron-up"></span></a></h1>
       <div class="row">
         <div class="col-md-4 col-lg-4 col-sm-6 col-xs-12">
           <div class="thumbnail">
@@ -219,6 +228,33 @@
         </div>
       </div>
 </div>
+<div class="container" id="galleria">
+  <h1>Galleria</h1>
+  <div id="links" class="row">
+  <a href="images/16tsaaF.jpg" title="Banana">
+    <img src="images/thumbnails/16tsaaF.jpg" alt="Banana">
+  </a>
+  <a href="images/phhF4.jpg" title="Apple">
+    <img src="images/thumbnails/phhF4.jpg" alt="Apple">
+  </a>
+  <a href="images/DzSe3.jpg" title="Orange">
+    <img src="images/thumbnails/DzSe3.jpg" alt="Orange">
+  </a>
+    <a href="images/yigUtCu.jpg" title="Blueberry">
+      <img src="images/thumbnails/yigUtCu.jpg" alt="Blueberry">
+    </a>
+</div>
+
+  <div id="blueimp-gallery" class="blueimp-gallery blueimp-gallery-controls container">
+    <div class="slides"></div>
+    <h3 class="title"></h3>
+    <a class="prev">‹</a>
+    <a class="next">›</a>
+    <a class="close">×</a>
+    <a class="play-pause"></a>
+    <ol class="indicator"></ol>
+  </div>
+</div>
 <div class="container" id="yhteystiedot">
     <h1>Yhteystiedot</h1>
     <div>
@@ -259,5 +295,16 @@
     <script src="js/bootstrap/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="js/ie10-viewport-bug-workaround.js"></script>
+    <script src="js/blueimp/blueimp-gallery.min.js"></script>
+    <script>
+    document.getElementById('links').onclick = function (event) {
+        event = event || window.event;
+        var target = event.target || event.srcElement,
+            link = target.src ? target.parentNode : target,
+            options = {index: link, event: event},
+            links = this.getElementsByTagName('a');
+        blueimp.Gallery(links, options);
+    };
+    </script>
   </body>
 </html>
