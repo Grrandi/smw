@@ -17,3 +17,7 @@ float:left;
 #gallery img:first-child {
 margin-left:-200px;
 }
+
+#verner-body {
+    padding: 15px;
+}
