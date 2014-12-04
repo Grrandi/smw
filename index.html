@@ -1,117 +1,127 @@
 <!DOCTYPE html>
 <html lang="en" xmlns="http://www.w3.org/1999/html">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" href="../../favicon.ico">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="../../favicon.ico">
 
-    <title>Sairilan mieswoimistelijat</title>
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet">
-    <!-- Custom styles for this template -->
-    <link href="css/sticky-footer-navbar.css" rel="stylesheet">
-    <link href="css/gallery-wrapper.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/blueimp/blueimp-gallery.min.css">
+  <title>Sairilan mieswoimistelijat</title>
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom styles for this template -->
+  <link href="css/sticky-footer-navbar.css" rel="stylesheet">
+  <link href="css/gallery-wrapper.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/blueimp/blueimp-gallery.min.css">
 
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-      <script src="js/derp.js"></script>
-    <![endif]-->
-  </head>
+  <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <script src="js/derp.js"></script>
+  <![endif]-->
+</head>
 
-  <body>
-    <!-- Fixed navbar -->
-    <div class="navbar navbar-default navbar-fixed-top " style="box-shadow: 0 0 15px black;" role="navigation">
-      <div class="container" >
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">SMW</a>
-        </div>
-        <div class="row">
-          <div class="col-xs-3"></div>
-          <div id="nav-main" class="collapse navbar-collapse col-xs-9">
-            <ul class="nav navbar-nav">
-              <li><a href="#aate">Aate</a></li>
-                <li><a href="#historia">Historia</a></li>
-              <li><a href="#woimistelijat">Woimistelijat</a></li>
-              <li><a href="#galleria">Galleria</a></li>
-              <li><a href="#yhteystiedot">Yhteystiedot</a></li>
-            </ul>
-          </div><!--/.nav-collapse -->
-        </div>
+<body>
+<!-- Fixed navbar -->
+<div class="navbar navbar-default navbar-fixed-top " style="box-shadow: 0 0 15px black;" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">SMW</a>
+    </div>
+    <div class="row">
+      <div class="col-xs-3"></div>
+      <div id="nav-main" class="collapse navbar-collapse col-xs-9">
+        <ul class="nav navbar-nav">
+          <li><a href="#aate">Aate</a></li>
+          <li><a href="#historia">Historia</a></li>
+          <li><a href="#woimistelijat">Woimistelijat</a></li>
+          <li><a href="#galleria">Galleria</a></li>
+          <li><a href="#yhteystiedot">Yhteystiedot</a></li>
+        </ul>
+      </div>
+      <!--/.nav-collapse -->
+    </div>
+  </div>
+</div>
+
+<!-- Begin page content -->
+<div class="container">
+  <div class="page-header">
+    <div class="row">
+      <div class="col-sm-3">
+        <img src="images/smw-logo.png">
+      </div>
+      <div class="col-sm-9 hidden-xs hidden-sm">
+        <img src="images/smw-text.png">
       </div>
     </div>
+  </div>
+  <blockquote class="blockquote">
+    <p>Sairilan Mieswoimistelijat ry (SMW) kiertää estradeja esittämällä perinteistä jämäkän jäykkää
+      mieswoimistelua. Esiintymisellään SMW tuo julki, että suomalainen mies pystyy vaikka minkälaisiin
+      suorituksiin, jopa asettamaan itsensä naurulle alttiiksi.
+    </p>
+  </blockquote>
+</div>
+<div id="nauha">
+</div>
+<div id="aate" class="container">
+  <span><h1>Aate <a href="#"><span class="glyphicon glyphicon-chevron-up"></span></a></h1></span>
 
-    <!-- Begin page content -->
-    <div class="container">
-      <div class="page-header">
-        <div class="row">
-            <div class="col-sm-3">
-              <img src="images/smw-logo.png">
-            </div>
-            <div class="col-sm-9 hidden-xs hidden-sm">
-              <img src="images/smw-text.png">
-            </div>
-        </div>
-      </div>
-      <blockquote class="blockquote">
-          <p>Sairilan Mieswoimistelijat ry (SMW) kiertää estradeja esittämällä perinteistä jämäkän jäykkää
-             mieswoimistelua. Esiintymisellään SMW tuo julki, että suomalainen mies pystyy vaikka minkälaisiin
-             suorituksiin, jopa asettamaan itsensä naurulle alttiiksi.
-          </p>
-      </blockquote>
-    </div>
-    <div id="nauha">
-    </div>
-    <div id="aate" class="container">
-        <span><h1>Aate <a href="#"><span class="glyphicon glyphicon-chevron-up"></span></a></h1></span>
-        <p class="text-justify">
-          Mieswoimisteluaatteen kulmakivinä ovat käsitteet: isänmaallisuus, askeettisuus, sitkeys ja veljeys.
-          Mieswoimistelijat kunnioittavat sotiemme veteraaneja ja Ylipäällikkö Mannerheimia, joka sotavuosina piti
-          askeettista petiään Sairilan kartanossa. Nykyisin Sairilan kartanossa toimii Sairilan koulukoti ja sieltä löytyy
-          myös Mieswoimistelijoiden kotilämpiö.
-          Mieswoimistelijoiden suurena esikuvana ja esimerkkinä peräänantamattomuudesta on ensimmäinen
-          suomalainen olympiavoittaja <a href="#" data-toggle="modal" data-target=".verner">Verner Weckman.</a> Kultamitalinsa Verner paini Suomeen Ateenan välikisoissa
-          29.4.1906. Vuotta aikaisemmin Verner oli voittanut maailmanmestaruuden legendaarisella painilla
-          saksalaista Friedrich Mülleriä vastaan. Ottelussa Müllerin sidonta oli niin tiukka, että Verneriltä lähti leuka
-          sijoiltaan. Verner löi nyrkillään leukansa takaisin paikoilleen, jatkoi painia ja voitti maailmanmestaruuden.
-          Mieswoimistelijoiden tarkoituksena on vaalia perinteistä suomalaista mieskulttuuria. Mieswoimistelijat
-          haluavat herättää henkiin myös nukuksissa olleen perinteisen suomalaisen jämäkän kotikasvatuksen:
-        </p>
-        <h3 class="text-center">
-         Joka kuritta kasvaa se kunniatta kuolee!
-        </h3>
-        <p class="text-center">eli rajat ovat rakkautta.</p>
-    </div>
+  <p class="text-justify">
+    Mieswoimisteluaatteen kulmakivinä ovat käsitteet: isänmaallisuus, askeettisuus, sitkeys ja veljeys.
+    Mieswoimistelijat kunnioittavat sotiemme veteraaneja ja Ylipäällikkö Mannerheimia, joka sotavuosina piti
+    askeettista petiään Sairilan kartanossa. Nykyisin Sairilan kartanossa toimii Sairilan koulukoti ja sieltä löytyy
+    myös Mieswoimistelijoiden kotilämpiö.
+    Mieswoimistelijoiden suurena esikuvana ja esimerkkinä peräänantamattomuudesta on ensimmäinen
+    suomalainen olympiavoittaja <a href="#" data-toggle="modal" data-target=".verner">Verner Weckman.</a> Kultamitalinsa
+    Verner paini Suomeen Ateenan välikisoissa
+    29.4.1906. Vuotta aikaisemmin Verner oli voittanut maailmanmestaruuden legendaarisella painilla
+    saksalaista Friedrich Mülleriä vastaan. Ottelussa Müllerin sidonta oli niin tiukka, että Verneriltä lähti leuka
+    sijoiltaan. Verner löi nyrkillään leukansa takaisin paikoilleen, jatkoi painia ja voitti maailmanmestaruuden.
+    Mieswoimistelijoiden tarkoituksena on vaalia perinteistä suomalaista mieskulttuuria. Mieswoimistelijat
+    haluavat herättää henkiin myös nukuksissa olleen perinteisen suomalaisen jämäkän kotikasvatuksen:
+  </p>
 
-    <!-- Large modal -->
+  <h3 class="text-center">
+    Joka kuritta kasvaa se kunniatta kuolee!
+  </h3>
+
+  <p class="text-center">eli rajat ovat rakkautta.</p>
+</div>
+
+<!-- Large modal -->
 <!--<button type="button" class="btn btn-primary" data-toggle="modal" data-target=".verner">Large modal</button>-->
 
-<div class="modal fade verner" id="verner-modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+<div class="modal fade verner" id="verner-modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+     aria-hidden="true">
   <div class="modal-dialog modal-lg">
     <div class="modal-content" id="verner-body">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">X</button>
-        <h4 class="modal-title" id="verner-title">Verner Weckman</h4>
+        <h3 class="modal-title text-center" id="verner-title">Verner Weckman</h3>
       </div>
       <div class="modal-body">
         <img class="center-block" src="images/verner-weckman.gif">
+
         <h1 class="text-center">
           JOHAN VERNER WECKMAN, vuorineuvos
         </h1>
+
         <h3 class="text-center">
           s. 26.7.1882 Loviisassa
         </h3>
+
         <h3 class="text-center">
           k. 22.2.1968 Helsingissä
         </h3>
+
         <h3>
           Koulutus:
         </h3>
@@ -162,28 +172,82 @@
           </li>
         </ul>
         <p class="text-justify">
-          <span class="lead" >Verner Weckman</span> syntyi Loviisassa maanviljelijän poikana, siirtyi sitten Helsinkiin käymään koulua, Lyseota, josta hän kirjoitti ylioppilaaksi vuonna 1902.
-          Helsingissä hän sattui näkemään sirkuksessa kuuluisien ammattipainijoiden (Lurich, Aberg) sekä Suomen mestareiden (Allen, Järvinen) otteluja. Weckman sai tällöin paini-innostuksen, mutta hän kehitti kuitenkin ruumiinvoimiaan vain hiihtämällä ja voimistelemalla.
-          Ylioppilaaksi tultuaan Weckman liittyi Helsingfors Gymnastikklubin riveihin ja vuotta myöhemmin myös voimailun erikoisseuraan, Helsingin Atleettiklubiin. Gymnastikklubissa Weckman harjoitteli voimistelua kahdesti viikossa. Tämä ei kuitenkaan hänelle riittänyt vaan hän harjoitteli myös kotonaan vetokumeilla ja käsipuristimilla, ja kävi lisäksi kolmesti viikossa Atleettiklubin painiharjoituksissa. Painitaidot kehittyivät nopeasti Carl Allenin ohjauksessa. Ensimmäisiin SM-kilpailuihinsa hän osallistui 1903. Vastus oli kuitenkin vielä liian kova. Seuraavana vuonna Verner Weckman oli valmis ottamaan Suomen mestaruuden Verner Järviseltä.
-          Vuonna 1905 Verner Weckman muutti Saksaan opiskelemaan Karlsruhen teknilliseen korkeakouluun. Siellä alkoi karu mutta tehokas harjoittelu. Hän nousi joka aamu ylös kello kuusi, voimisteli puolisen tuntia peilin edessä, joi neljä raakaa munaa ja maitoa ja teki rivakan kävelyharjoituksen ennen varsinaista painiharjoittelua. Kävelyretkeen kuului hengitysharjoitus: 20 askelta ja ilmaa keuhkot täyteen, 20 askelta ja keuhkot tyhjiksi, joskus jopa 50 askelta ja vasta sitten keuhkot tyhjiksi. Illalla ohjelmaan kuului vielä soutuharjoitus Reinillä. Harjoitus jatkui päivästä päivään yhtä ankarana. Jossakin välissä Verner ehti myös kirjojen ääreen. Diplomityövaiheessaan hän valvoi tenttiensä ääressä viikon yhteen menoon ilman hetkenkään unta.
-          Keväällä 1905 Duisburgin Athleten-Gesellschaft Hochfeld järjesti maailmanmestaruuskilpailut. Verner Weckman painoi miestä matalaksi ja voitti kreikkalais-roomalaisen painin raskaan sarjan maailmanmestaruuden. Loppuottelu Friedrich Mülleriä vastaan ei ollut helppo: "Mattopainin aikana leukaluuni väännähti pois paikaltaan. Tuska säkenöi päässäni mutta vapaalla kädelläni iskin itseäni leukaan niin lujaa kuin jaksoin. Kipu vaimeni ja saatoin jälleen keskittyä itse asiaan.
+          <span class="lead">Verner Weckman</span> syntyi Loviisassa maanviljelijän poikana, siirtyi sitten Helsinkiin
+          käymään koulua, Lyseota, josta hän kirjoitti ylioppilaaksi vuonna 1902.
+          Helsingissä hän sattui näkemään sirkuksessa kuuluisien ammattipainijoiden (Lurich, Aberg) sekä Suomen
+          mestareiden (Allen, Järvinen) otteluja. Weckman sai tällöin paini-innostuksen, mutta hän kehitti kuitenkin
+          ruumiinvoimiaan vain hiihtämällä ja voimistelemalla.
+          Ylioppilaaksi tultuaan Weckman liittyi Helsingfors Gymnastikklubin riveihin ja vuotta myöhemmin myös voimailun
+          erikoisseuraan, Helsingin Atleettiklubiin. Gymnastikklubissa Weckman harjoitteli voimistelua kahdesti
+          viikossa. Tämä ei kuitenkaan hänelle riittänyt vaan hän harjoitteli myös kotonaan vetokumeilla ja
+          käsipuristimilla, ja kävi lisäksi kolmesti viikossa Atleettiklubin painiharjoituksissa. Painitaidot
+          kehittyivät nopeasti Carl Allenin ohjauksessa. Ensimmäisiin SM-kilpailuihinsa hän osallistui 1903. Vastus oli
+          kuitenkin vielä liian kova. Seuraavana vuonna Verner Weckman oli valmis ottamaan Suomen mestaruuden Verner
+          Järviseltä.
+          Vuonna 1905 Verner Weckman muutti Saksaan opiskelemaan Karlsruhen teknilliseen korkeakouluun. Siellä alkoi
+          karu mutta tehokas harjoittelu. Hän nousi joka aamu ylös kello kuusi, voimisteli puolisen tuntia peilin
+          edessä, joi neljä raakaa munaa ja maitoa ja teki rivakan kävelyharjoituksen ennen varsinaista
+          painiharjoittelua. Kävelyretkeen kuului hengitysharjoitus: 20 askelta ja ilmaa keuhkot täyteen, 20 askelta ja
+          keuhkot tyhjiksi, joskus jopa 50 askelta ja vasta sitten keuhkot tyhjiksi. Illalla ohjelmaan kuului vielä
+          soutuharjoitus Reinillä. Harjoitus jatkui päivästä päivään yhtä ankarana. Jossakin välissä Verner ehti myös
+          kirjojen ääreen. Diplomityövaiheessaan hän valvoi tenttiensä ääressä viikon yhteen menoon ilman hetkenkään
+          unta.
+          Keväällä 1905 Duisburgin Athleten-Gesellschaft Hochfeld järjesti maailmanmestaruuskilpailut. Verner Weckman
+          painoi miestä matalaksi ja voitti kreikkalais-roomalaisen painin raskaan sarjan maailmanmestaruuden.
+          Loppuottelu Friedrich Mülleriä vastaan ei ollut helppo: "Mattopainin aikana leukaluuni väännähti pois
+          paikaltaan. Tuska säkenöi päässäni mutta vapaalla kädelläni iskin itseäni leukaan niin lujaa kuin jaksoin.
+          Kipu vaimeni ja saatoin jälleen keskittyä itse asiaan.
         </p>
+
         <p class="text-justify">
           <span class="lead">ATEENA 1906</span>
-          Olympialaisten välikisoihin Ateenaan vuonna 1906 lähteneiden kolmen suomalaisen miehen; heittäjä Verner Järvisen sekä viisiottelijoiden Heikki Pennolan ja Uuno Tuomelan seuraan liittyi Berliinissä Verner Weckman.
-          Matka ei sujunut vaikeuksitta. Rajavirkailijat ottivat kaikkien passit ennen Salonikin kaupunkia, selittivät kreikaksi jotakin ja katosivat passit mukanaan. Pari päivää Weckman etsi passeja, kunnes löysi ne viimein satamavirastosta saman päivän aamuna, jona laivan piti lähteä kohti Ateenan satamakaupunkia Pireusta. Siinä välissä Weckman sai tyynnytellä epäluuloista Verner Järvistä. Voimamies koki vilkkaasti elehtivät pienet, tummat kreikkalaiset rosvoiksi ja kurkunleikkaajiksi. Pari kantajaa Verner Järvinen oli paiskata satama-altaaseen ennen kuin Weckman ehti selvittää tilanteen. Ateenaan kuitenkin päästiin.
-          Ateenaan päästyään suomalaiset ompelivat käsin itselleen siniristilipun aikomuksenaan marssia avajaisissa sen suojissa. Tämä ei sopinut venäläisille. He vaativat suomalaiset marssimaan omaan joukkueeseensa. Siihen ei suostuttu, vaan muodostettiin oma ryhmä venäläisten jälkeen. Lopulta suomalaisten joukkue marssi avajaisiin USA:n joukkueen vanavedessä ja poistui stadionilta Itävallan perässä.
-          Painikilpailuja edeltävässä punnituksessa Verner Weckman painoi muutaman gramman liikaa päästäkseen keskisarjaan. "Ilmoitin, että minulla on asunnossani kevyemmät trikoot. Niinpä juoksin vain painitrikoo päälläni polttavassa auringonpaisteessa puolentoista kilometrin matkan asuntoomme ja muutin ylleni kevyemmän puolitrikoon. Se oli niin väljä, että ilma liihotteli sitä ympärilläni, kun juosta pinkaisin takaisin punnituspaikalle. Onneksi oli sekalaisen matkan varrella tarjottu ruoka saanut vatsani sekaisin, joten sekin aiheutti kevennyksen."
-          "Kilpailujen alkaessa ilmoitettiin, että kaikkien tuli otella vanhojen helleeniläisten tapojen mukaisesti hiekalla, eikä matolla. Kaikkien yksimielinen vastalause johti siihen, että hiekalle levitettiin peitekangas. Minä kilpailin kuitenkin paljasjaloin, kuten muinaiset helleenitkin, ja voitin."
-          "Osanottajia oli kolmisenkymmentä ja yhdestä häviöstä joutui pois. Minuutti tai pari kului minulta muiden kellistämiseen mutta itävaltalaisen Rudolf Lindmayerin kanssa meni enemmän aikaa. Kyseessä oli kamppailu ensimmäisestä sijasta. Itävaltalainen painituomari ei hyväksynyt ensimmäistä seljätystäni. Kyllästyin selittelyihin ja sanoin, että otetaanpa vielä kerran. Niinpä pistin itävaltalaisen vastustajani vajaassa minuutissa uudelleen harteilleen, pidin häntä siinä ja kehotin tuomaria koettamaan saako hän sormensa hartiain ja maton väliin. No, täytyihän hänenkin lopulta myöntää, ja niin oli voitto selvä."
+          Olympialaisten välikisoihin Ateenaan vuonna 1906 lähteneiden kolmen suomalaisen miehen; heittäjä Verner
+          Järvisen sekä viisiottelijoiden Heikki Pennolan ja Uuno Tuomelan seuraan liittyi Berliinissä Verner Weckman.
+          Matka ei sujunut vaikeuksitta. Rajavirkailijat ottivat kaikkien passit ennen Salonikin kaupunkia, selittivät
+          kreikaksi jotakin ja katosivat passit mukanaan. Pari päivää Weckman etsi passeja, kunnes löysi ne viimein
+          satamavirastosta saman päivän aamuna, jona laivan piti lähteä kohti Ateenan satamakaupunkia Pireusta. Siinä
+          välissä Weckman sai tyynnytellä epäluuloista Verner Järvistä. Voimamies koki vilkkaasti elehtivät pienet,
+          tummat kreikkalaiset rosvoiksi ja kurkunleikkaajiksi. Pari kantajaa Verner Järvinen oli paiskata
+          satama-altaaseen ennen kuin Weckman ehti selvittää tilanteen. Ateenaan kuitenkin päästiin.
+          Ateenaan päästyään suomalaiset ompelivat käsin itselleen siniristilipun aikomuksenaan marssia avajaisissa sen
+          suojissa. Tämä ei sopinut venäläisille. He vaativat suomalaiset marssimaan omaan joukkueeseensa. Siihen ei
+          suostuttu, vaan muodostettiin oma ryhmä venäläisten jälkeen. Lopulta suomalaisten joukkue marssi avajaisiin
+          USA:n joukkueen vanavedessä ja poistui stadionilta Itävallan perässä.
+          Painikilpailuja edeltävässä punnituksessa Verner Weckman painoi muutaman gramman liikaa päästäkseen
+          keskisarjaan. "Ilmoitin, että minulla on asunnossani kevyemmät trikoot. Niinpä juoksin vain painitrikoo
+          päälläni polttavassa auringonpaisteessa puolentoista kilometrin matkan asuntoomme ja muutin ylleni kevyemmän
+          puolitrikoon. Se oli niin väljä, että ilma liihotteli sitä ympärilläni, kun juosta pinkaisin takaisin
+          punnituspaikalle. Onneksi oli sekalaisen matkan varrella tarjottu ruoka saanut vatsani sekaisin, joten sekin
+          aiheutti kevennyksen."
+          "Kilpailujen alkaessa ilmoitettiin, että kaikkien tuli otella vanhojen helleeniläisten tapojen mukaisesti
+          hiekalla, eikä matolla. Kaikkien yksimielinen vastalause johti siihen, että hiekalle levitettiin peitekangas.
+          Minä kilpailin kuitenkin paljasjaloin, kuten muinaiset helleenitkin, ja voitin."
+          "Osanottajia oli kolmisenkymmentä ja yhdestä häviöstä joutui pois. Minuutti tai pari kului minulta muiden
+          kellistämiseen mutta itävaltalaisen Rudolf Lindmayerin kanssa meni enemmän aikaa. Kyseessä oli kamppailu
+          ensimmäisestä sijasta. Itävaltalainen painituomari ei hyväksynyt ensimmäistä seljätystäni. Kyllästyin
+          selittelyihin ja sanoin, että otetaanpa vielä kerran. Niinpä pistin itävaltalaisen vastustajani vajaassa
+          minuutissa uudelleen harteilleen, pidin häntä siinä ja kehotin tuomaria koettamaan saako hän sormensa hartiain
+          ja maton väliin. No, täytyihän hänenkin lopulta myöntää, ja niin oli voitto selvä."
           Suomeen tuli siis ensimmäinen olympiakulta 29. huhtikuuta 1906.
         </p>
+
         <p class="text-justify">
           <span class="lead">LONTOO 1908</span>
-          Ateenan kisojen jälkeen Verner Weckman jatkoi opintojaan Saksassa mutta ei unohtanut painia. Lontoon olympialaisiin 1908 Suomi lähetti raskaaseen keskisarjaan kolme miestä: Weckmanin, Jussi Kivimäen ja Yrjö Saarelan. Kivimäki putosi jo alkukierroksella, mutta Weckman ja Saarela etenivät miehiä kaataen. Loppuottelussa heinäkuun 22. päivänä oli vastakkain kaksi taustaltaan erilaista mutta kovaa suomalaista; viittä vaille valmis vuori-insinööri Verner Weckman ja peräpohjalainen isäntämies Yrjö Saarela. Kultamitaliin vaadittiin kaksi voittoa. Saarela voitti ensimmäisen, Weckman toisen. Kolmas kesti 16 minuuttia 10 sekuntia ja päättyi Weckmanin voittoon. Suomi sai ensimmäisen virallisen olympialaisen kultamitalinsa.
-          Verner Weckman lopetti aktiiviuransa Lontoon olympiavoittoon. Hän teki sen jälkeen komean uran siviilissä. Hän oli insinöörinä Venäjällä vuoteen 1921 saakka, sen jälkeen Suomen Kaapelitehdas Oy:n palveluksessa eri tehtävissä ja vuosina 1937 – 55 yhtiön toimitusjohtajana. Vuorineuvoksen arvon hän sai vuonna 1953.
-          Painia ja seuraansa Helsingin Atleettiklubia Weckman ei unohtanut koskaan. Hän järjesti 1944 valmistuneeseen tehtaansa uuteen toimitaloon ensiluokkaisen painiharjoitushuoneen omalle työväelleen ja seuralleen. Atleettiklubin voimamiehet harjoittelivat Suomen Kaapelitehtaan salissa aina 1990-luvulle asti.
+          Ateenan kisojen jälkeen Verner Weckman jatkoi opintojaan Saksassa mutta ei unohtanut painia. Lontoon
+          olympialaisiin 1908 Suomi lähetti raskaaseen keskisarjaan kolme miestä: Weckmanin, Jussi Kivimäen ja Yrjö
+          Saarelan. Kivimäki putosi jo alkukierroksella, mutta Weckman ja Saarela etenivät miehiä kaataen.
+          Loppuottelussa heinäkuun 22. päivänä oli vastakkain kaksi taustaltaan erilaista mutta kovaa suomalaista;
+          viittä vaille valmis vuori-insinööri Verner Weckman ja peräpohjalainen isäntämies Yrjö Saarela. Kultamitaliin
+          vaadittiin kaksi voittoa. Saarela voitti ensimmäisen, Weckman toisen. Kolmas kesti 16 minuuttia 10 sekuntia ja
+          päättyi Weckmanin voittoon. Suomi sai ensimmäisen virallisen olympialaisen kultamitalinsa.
+          Verner Weckman lopetti aktiiviuransa Lontoon olympiavoittoon. Hän teki sen jälkeen komean uran siviilissä. Hän
+          oli insinöörinä Venäjällä vuoteen 1921 saakka, sen jälkeen Suomen Kaapelitehdas Oy:n palveluksessa eri
+          tehtävissä ja vuosina 1937 – 55 yhtiön toimitusjohtajana. Vuorineuvoksen arvon hän sai vuonna 1953.
+          Painia ja seuraansa Helsingin Atleettiklubia Weckman ei unohtanut koskaan. Hän järjesti 1944 valmistuneeseen
+          tehtaansa uuteen toimitaloon ensiluokkaisen painiharjoitushuoneen omalle työväelleen ja seuralleen.
+          Atleettiklubin voimamiehet harjoittelivat Suomen Kaapelitehtaan salissa aina 1990-luvulle asti.
         </p>
+
         <h3>
           Lähteet:
         </h3>
@@ -211,152 +275,199 @@
 
 
 <div class="container" id="historia">
-    <div class="row">
-        <div class="col-sm-12">
-            <span><h1>Historia <a href="#"><span class="glyphicon glyphicon-chevron-up"></span></a></h1></span>
-            <p class="text-justify">
-              Sairilan Mieswoimistelijoiden historia juontaa juurensa Paukkulan Nuorisoseuran Mieswoimistelijoihin.
-              Paukkulan weljet kiersivät esiintymässä vuosina 1981 – 1983 ympäri valtakuntaa lähinnä
-              nuorisoseuratapahtumissa, mutta myös muissakin juhlissa. Mieswoimisteluaatteen toi Sairilaan ryhmässä
-              voimistellut Jukka Pohjanvirta. Sairilan Mieswoimistelijoiden voidaan katsoa syntyneen 7.11.1986, jolloin
-              woimistelijakaksikko ohjaajat Juha-Matti Laitinen ja Jukka Pohjanvirta esittivät kuolemaa halveksivaa
-              tasapainovoimistelua Sairilan koulukodin nuorten iltamissa. Varsinainen mieswoimisteluryhmä kasattiin
-              koulukodin henkilökunnan pikkujouluihin vuonna 1988. Ryhmässä voimistelivat ohjaajat Arto Lahtonen,
-              Risto Vesanen, Pertti Paajanen ja Jukka Pohjanvirta. Nykyisin Sairilan Mieswoimistelijoihin kuuluu 12
-              woimistelijaa, joiden kaikkien työhistoria liittyy Sairilan koulukotiin.
-            </p>
-        </div>
+  <div class="row">
+    <div class="col-sm-12">
+      <span><h1>Historia <a href="#"><span class="glyphicon glyphicon-chevron-up"></span></a></h1></span>
+
+      <p class="text-justify">
+        Sairilan Mieswoimistelijoiden historia juontaa juurensa Paukkulan Nuorisoseuran Mieswoimistelijoihin.
+        Paukkulan weljet kiersivät esiintymässä vuosina 1981 – 1983 ympäri valtakuntaa lähinnä
+        nuorisoseuratapahtumissa, mutta myös muissakin juhlissa. Mieswoimisteluaatteen toi Sairilaan ryhmässä
+        voimistellut Jukka Pohjanvirta. Sairilan Mieswoimistelijoiden voidaan katsoa syntyneen 7.11.1986, jolloin
+        woimistelijakaksikko ohjaajat Juha-Matti Laitinen ja Jukka Pohjanvirta esittivät kuolemaa halveksivaa
+        tasapainovoimistelua Sairilan koulukodin nuorten iltamissa. Varsinainen mieswoimisteluryhmä kasattiin
+        koulukodin henkilökunnan pikkujouluihin vuonna 1988. Ryhmässä voimistelivat ohjaajat Arto Lahtonen,
+        Risto Vesanen, Pertti Paajanen ja Jukka Pohjanvirta. Nykyisin Sairilan Mieswoimistelijoihin kuuluu 12
+        woimistelijaa, joiden kaikkien työhistoria liittyy Sairilan koulukotiin.
+      </p>
     </div>
+  </div>
 </div>
 <div class="container" id="woimistelijat">
     <span><h1>Woimistelijat <a href="#"><span class="glyphicon glyphicon-chevron-up"></span></a></h1>
       <div class="row">
         <div class="col-md-4 col-lg-4 col-sm-6 col-xs-12">
           <div class="thumbnail">
-            <img src="images/temp-picture.svg" alt="...">
+            <img src="images/veljet/jukka_small.jpg" alt="Weli Jukka">
+
             <div class="caption">
-              <h3>Weli wekkuli</h3>
-              <p>Ansiokasta voimistelua vuodesta nönönöö<p>
+              <h3>Jukka Pohjanvirta,<br>weli Jukka</h3>
+              <br>
+
+              <p>Mieswoimistelua Sairilassa vuodesta 1986 alkaen</p>
             </div>
           </div>
         </div>
-          <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-            <div class="thumbnail">
-              <img src="images/temp-picture.svg" alt="...">
-              <div class="caption">
-                <h3>Weli wekkuli</h3>
-                <p>Ansiokasta voimistelua vuodesta nönönöö<p>
-              </div>
-            </div>
-        </div>
-        <div class="col-md-4 col-lg-4 col-sm-6 col-xs-12">
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
           <div class="thumbnail">
-            <img src="images/temp-picture.svg" alt="...">
-              <div class="caption">
-                <h3>Weli wekkuli</h3>
-                <p>Ansiokasta voimistelua vuodesta nönönöö<p>
-              </div>
-          </div>
-        </div>
-        <div class="col-md-4 col-lg-4 col-sm-6 col-xs-12">
-          <div class="thumbnail">
-            <img src="images/temp-picture.svg" alt="...">
+            <img src="images/veljet/risto_small.jpg" alt="Weli Risto">
+
             <div class="caption">
-              <h3>Weli wekkuli</h3>
-              <p>Ansiokasta voimistelua vuodesta nönönöö<p>
+              <h3>Risto Vesanen,<br> weli Risto</h3>
+              <br>
+
+              <p>Mieswoimistelua Sairilassa vuodesta 1988 alkaen</p>
             </div>
           </div>
         </div>
         <div class="col-md-4 col-lg-4 col-sm-6 col-xs-12">
           <div class="thumbnail">
-            <img src="images/temp-picture.svg" alt="...">
-          <div class="caption">
-            <h3>Weli wekkuli</h3>
-            <p>Ansiokasta voimistelua vuodesta nönönöö<p>
-          </div>
-        </div>
-        </div>
-        <div class="col-md-4 col-lg-4 col-sm-6 col-xs-12">
-          <div class="thumbnail">
-            <img src="images/temp-picture.svg" alt="...">
+            <img src="images/veljet/mesu_small.jpg" alt="Weli Mesu">
+
             <div class="caption">
-              <h3>Weli wekkuli</h3>
-              <p>Ansiokasta voimistelua vuodesta nönönöö<p>
+              <h3>Arto Lahtonen,<br> weli Mesu</h3>
+              <br>
+
+              <p>Mieswoimistelua Sairilassa vuodesta 1988 alkaen</p>
+
             </div>
           </div>
         </div>
         <div class="col-md-4 col-lg-4 col-sm-6 col-xs-12">
           <div class="thumbnail">
-            <img src="images/temp-picture.svg" alt="...">
+            <img src="images/veljet/partsi_small.jpg" alt="Weli Pärtsi">
+
             <div class="caption">
-              <h3>Weli wekkuli</h3>
-              <p>Ansiokasta voimistelua vuodesta nönönöö<p>
+              <h3>Arto Pärnänen,<br> weli Pärtsi</h3>
+
+              <p><strong>- Muistoissamme -</strong><br> Miesvoimistelua Sairilassa 1988-2009</p>
+
             </div>
           </div>
         </div>
         <div class="col-md-4 col-lg-4 col-sm-6 col-xs-12">
           <div class="thumbnail">
-            <img src="images/temp-picture.svg" alt="...">
+            <img src="images/veljet/kimmo_small.jpg" alt="Weli Kimmo">
+
             <div class="caption">
-              <h3>Weli wekkuli</h3>
-              <p>Ansiokasta voimistelua vuodesta nönönöö<p>
+              <h3>Kimmo Rötkö,<br> weli Kimmo</h3>
+              <br>
+
+              <p>Mieswoimistelua Sairilassa vuodesta 1990 alkaen</p>
+
             </div>
           </div>
         </div>
         <div class="col-md-4 col-lg-4 col-sm-6 col-xs-12">
           <div class="thumbnail">
-            <img src="images/temp-picture.svg" alt="...">
+            <img src="images/veljet/eero_small.jpg" alt="Weli Eero">
+
             <div class="caption">
-              <h3>Weli wekkuli</h3>
-              <p>Ansiokasta voimistelua vuodesta nönönöö<p>
+              <h3>Eero Ikonen,<br> weli Eero</h3>
+              <br>
+
+              <p>Mieswoimistelua Sairilassa vuodesta 1991 alkaen</p>
+
             </div>
           </div>
         </div>
         <div class="col-md-4 col-lg-4 col-sm-6 col-xs-12">
           <div class="thumbnail">
-            <img src="images/temp-picture.svg" alt="...">
+            <img src="images/veljet/aki_small.jpg" alt="Weli Aki">
+
             <div class="caption">
-              <h3>Weli wekkuli</h3>
-              <p>Ansiokasta voimistelua vuodesta nönönöö<p>
+              <h3>Aki Laukkanen,<br> weli Aki</h3>
+              <br>
+
+              <p>Rummutusta Sairilassa vuodesta 1996 alkaen</p>
+
             </div>
           </div>
         </div>
         <div class="col-md-4 col-lg-4 col-sm-6 col-xs-12">
           <div class="thumbnail">
-            <img src="images/temp-picture.svg" alt="...">
+            <img src="images/veljet/jarkko_small.jpg" alt="Weli Jarkko">
+
             <div class="caption">
-              <h3>Weli wekkuli</h3>
-              <p>Ansiokasta voimistelua vuodesta nönönöö<p>
+              <h3>Jarkko Paananen,<br> weli Jarkko</h3>
+              <br>
+
+              <p>Mieswoimistelua Sairilassa vuodesta 2001 alkaen</p>
+
             </div>
           </div>
         </div>
         <div class="col-md-4 col-lg-4 col-sm-6 col-xs-12">
           <div class="thumbnail">
-            <img src="images/temp-picture.svg" alt="...">
+            <img src="images/veljet/panu_small.jpg" alt="Weli Panu">
+
             <div class="caption">
-              <h3>Weli wekkuli</h3>
-              <p>Ansiokasta voimistelua vuodesta nönönöö<p>
+              <h3>Panu Melkinen,<br> weli Panu</h3>
+              <br>
+
+              <p>Mieswoimistelua Sairilassa vuodesta 2001 alkaen</p>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-4 col-sm-6 col-xs-12">
+          <div class="thumbnail">
+            <img src="images/veljet/hessu_small.jpg" alt="Weli Hessu">
+
+            <div class="caption">
+              <h3>Heikki Soininen,<br> weli Hessu</h3>
+              <br>
+
+              <p>Mieswoimistelua Sairilassa vuodesta 2005 alkaen</p>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-4 col-sm-6 col-xs-12">
+          <div class="thumbnail">
+            <img src="images/veljet/tero_small.jpg" alt="Weli Tero">
+
+            <div class="caption">
+              <h3>Tero Väisänen,<br> weli Tero</h3>
+              <br>
+
+              <p>Mieswoimistelua Sairilassa vuodesta 2008 alkaen</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-4 col-sm-6 col-xs-12">
+          <div class="thumbnail">
+            <img src="images/veljet/saku_small.jpg" alt="Weli Saku">
+
+            <div class="caption">
+              <h3>Saku Romppainen,<br> weli Saku</h3>
+              <br>
+
+              <p>Mieswoimistelua Sairilassa vuodesta 2011 alkaen</p>
+
             </div>
           </div>
         </div>
       </div>
+    </span>
 </div>
 <div class="container" id="galleria">
   <h1>Galleria</h1>
+
   <div id="links" class="row">
-  <a href="images/16tsaaF.jpg" title="Banana">
-    <img src="images/thumbnails/16tsaaF.jpg" alt="Banana">
-  </a>
-  <a href="images/phhF4.jpg" title="Apple">
-    <img src="images/thumbnails/phhF4.jpg" alt="Apple">
-  </a>
-  <a href="images/DzSe3.jpg" title="Orange">
-    <img src="images/thumbnails/DzSe3.jpg" alt="Orange">
-  </a>
+    <a href="images/16tsaaF.jpg" title="Banana">
+      <img src="images/thumbnails/16tsaaF.jpg" alt="Banana">
+    </a>
+    <a href="images/phhF4.jpg" title="Apple">
+      <img src="images/thumbnails/phhF4.jpg" alt="Apple">
+    </a>
+    <a href="images/DzSe3.jpg" title="Orange">
+      <img src="images/thumbnails/DzSe3.jpg" alt="Orange">
+    </a>
     <a href="images/yigUtCu.jpg" title="Blueberry">
       <img src="images/thumbnails/yigUtCu.jpg" alt="Blueberry">
     </a>
-</div>
+  </div>
 
   <div id="blueimp-gallery" class="blueimp-gallery blueimp-gallery-controls container">
     <div class="slides"></div>
@@ -368,56 +479,80 @@
     <ol class="indicator"></ol>
   </div>
 </div>
+<div class="container" id="linkkeja">
+  <h1>Linkkejä</h1>
+  <div class="row">
+    <div class="col-sm-6">
+      <a href="http://www.lapikkaanmieswoimistelijat.org"><h4>Lapikkaan Mieswoimistelijat</h4></a>
+    </div>
+    <div class="col-sm-6">
+      <a href="http://www.tyrwakkaat.kopteri.net"><h4>Wammalan Woimailu- ja Woimisteluseura Tyrwäkkäät</h4></a>
+    </div>
+    <div class="col-sm-6">
+      <a href="http://www.pertti.com/woltti.htm"><h4>Pyhäjärven Mieswoimistelijat Woltti</h4></a>
+    </div>
+    <div class="col-sm-6">
+      <a href="http://www.valtionkoulukodit.fi/sairila.html"><h4>Sairilan koulukoti</h4></a>
+    </div>
+  </div>
+</div>
 <div class="container" id="yhteystiedot">
-    <h1>Yhteystiedot</h1>
-    <div>
-        <h3>Esiintymistilaukset</h3>
-        <h4>sairilan.mieswoimistelijat@luukku.fi <a href="mailto:sairilan.mieswoimistelijat@luukku.fi"><span class="glyphicon glyphicon-send"></span></a></h4>
+  <h1>Yhteystiedot</h1>
 
+  <div>
+    <h3>Esiintymistilaukset</h3>
+    <h4>sairilan.mieswoimistelijat@luukku.fi <a href="mailto:sairilan.mieswoimistelijat@luukku.fi"><span
+            class="glyphicon glyphicon-send"></span></a></h4>
+
+  </div>
+  <div class="row">
+    <div class="col-sm-4">
+      <h4>Jukka Pohjanvirta</h4>
+
+      <p>Puheenjohtaja</p>
+
+      <p>0445488696</p>
     </div>
-    <div class="row">
-       <div class="col-sm-4">
-           <h4>Jukka Pohjanvirta</h4>
-           <p>Puheenjohtaja</p>
-           <p>0445488696</p>
-       </div>
-        <div class="col-sm-4">
-            <h4>Risto Vesanen</h4>
-            <p>0403015305</p>
-        </div>
-        <div class="col-sm-4">
-            <h4>Arto Lahtonen</h4>
-            <p>0440363258</p>
-        </div>
+    <div class="col-sm-4">
+      <h4>Risto Vesanen</h4>
+
+      <p>0403015305</p>
     </div>
+    <div class="col-sm-4">
+      <h4>Arto Lahtonen</h4>
+
+      <p>0440363258</p>
+    </div>
+  </div>
 </div>
 
+</div>
+<div class="footer">
+  <div class="container">
+    <div class="row">
+      <p class="col-sm-6 col-xs-6 text-center text-muted">Sairilan Mieswoimistelijat</p>
+
+      <p class="col-sm-6 col-xs-6 text-center text-right text-muted">Design: Matti Pohjanvirta</p>
     </div>
-    <div class="footer" >
-        <div class="container">
-            <div class="row">
-            <p class="col-sm-6 col-xs-6 text-center text-muted">Sairilan Mieswoimistelijat</p>
-            <p class="col-sm-6 col-xs-6 text-center text-right text-muted">Design: Matti Pohjanvirta</p>
-            </div>
-        </div>
-    </div>
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="js/bootstrap/bootstrap.min.js"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="js/ie10-viewport-bug-workaround.js"></script>
-    <script src="js/blueimp/blueimp-gallery.min.js"></script>
-    <script>
-    document.getElementById('links').onclick = function (event) {
-        event = event || window.event;
-        var target = event.target || event.srcElement,
+  </div>
+</div>
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="js/bootstrap/bootstrap.min.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="js/ie10-viewport-bug-workaround.js"></script>
+<script src="js/blueimp/blueimp-gallery.min.js"></script>
+<script>
+  document.getElementById('links').onclick = function (event) {
+    event = event || window.event;
+    var target = event.target || event.srcElement,
             link = target.src ? target.parentNode : target,
             options = {index: link, event: event},
             links = this.getElementsByTagName('a');
-        blueimp.Gallery(links, options);
-    };
-    </script>
-  </body>
+    blueimp.Gallery(links, options);
+  };
+</script>
+</body>
 </html>
