@@ -8,7 +8,14 @@
     height: 320px;
 }
 
-#yhteystiedot-wrapper {
+#footer-img {
    background: url(../images/talo.png) top center no-repeat;
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=0 );
+   height: 320px;
+   position: relative;
 }
+
+
+#linkkeja {
+    padding-bottom: 25px;
+}
+

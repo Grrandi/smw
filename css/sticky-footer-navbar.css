@@ -1,21 +1,64 @@
 /* Sticky footer styles
 -------------------------------------------------- */
-html {
-  position: relative;
-  min-height: 100%;
-}
-body {
+/*html,*/
+/*body {*/
   /* Margin bottom by footer height */
-  margin-bottom: 60px;
-}
-.footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
+  /*margin-bottom: 60px;*/
+/*}*/
+/*.footer {*/
+  /*position: absolute;*/
+  /*bottom: 0;*/
+  /*width: 100%;*/
   /* Set the fixed height of the footer here */
-  height: 60px;
-  background-color: #f5f5f5;
-}
+  /*height: 60px;*/
+  /*background-color: #f5f5f5;*/
+/*}*/
+
+/*#yhteystiedot-wraper {*/
+  /*min-height: 100%;*/
+  /* equal to footer height */
+  /*margin-bottom: -142px;*/
+/*}*/
+/*#yhteystiedot-wraper:after {*/
+  /*content: "";*/
+  /*display: block;*/
+/*}*/
+/*#footer, #yhteystiedot-wraper:after {*/
+  /*height: 142px;*/
+/*}*/
+
+/*
+Sticky Footer Solution
+by Steve Hatcher
+http://stever.ca
+http://www.cssstickyfooter.com
+*/
+
+/** {margin:0;padding:0;}*/
+
+/* must declare 0 margins on everything, also for main layout components use padding, not*/
+/*vertical margins (top and bottom) to add spacing, else those margins get added to total height*/
+/*and your footer gets pushed down a bit more, creating vertical scroll bars in the browser */
+
+/*html, body {height: 100%;}*/
+
+/*#wrap {min-height: 100%;}*/
+
+/*#main {overflow:auto;*/
+	/*padding-bottom: 60px;}  *//* must be same height as the footer */
+
+/*#footer {position: relative;*/
+	/*margin-top: -60px; *//* negative value of footer height */
+	/*height: 60px;*/
+	/*clear:both;}*/
+
+/*Opera Fix*/
+/*body:before {*//* thanks to Maleika (Kohoutec)*/
+/*content:"";*/
+/*height:100%;*/
+/*float:left;*/
+/*width:0;*/
+/*margin-top:-32767px;*//* thank you Erik J - negate effect of float*/
 
 
 /* Custom page CSS
@@ -26,13 +69,13 @@ body > .container {
   padding: 60px 15px 0;
 }
 .container .text-muted {
-  margin: 20px 0;
+  /*margin: 20px 0;*/
 }
 
-.footer > .container {
-  padding-right: 15px;
-  padding-left: 15px;
-}
+/*.footer > .container {*/
+  /*padding-right: 15px;*/
+  /*padding-left: 15px;*/
+/*}*/
 
 code {
   font-size: 80%;
